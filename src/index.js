@@ -1,6 +1,7 @@
 import initLoad from "./homePage";
 import loadAbout from "./about";
 import loadMenu from "./menu";
+import './style.css';
 
 document.addEventListener("DOMContentLoaded", () => {
   initLoad();

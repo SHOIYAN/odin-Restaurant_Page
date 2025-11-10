@@ -10,15 +10,15 @@ export default function loadMenu() {
 
   const menuItems = [
     { name: "Ramen", price: "$12" },
-    { name: "Sushi Platter", price: "$18" },
     { name: "Matcha Latte", price: "$5" },
+    { name: "Sushi Platter", price: "$18" },
     { name: "Tempura Udon", price: "$14" },
     { name: "Green Tea Ice Cream", price: "$6" },
   ];
 
   menuItems.forEach((item) => {
     const listItem = document.createElement("li");
-    listItem.textContent = `${item.name} — `;
+    listItem.textContent = `${item.name}`;
     const span = document.createElement("span");
     span.textContent = `${item.price}`;
     listItem.appendChild(span);
