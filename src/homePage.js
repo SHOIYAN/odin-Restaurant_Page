@@ -2,6 +2,7 @@ import restaurantImage from "./restaurant-image.jpg";
 
 export default function initLoad() {
   const content = document.getElementById("content");
+  content.textContent = '';
   const img = document.createElement("img");
   img.src = restaurantImage;
   img.alt = "Cozy restaurant interior";
